@@ -3,7 +3,7 @@
 
 class YellowCopyblock {
     const VERSION = "0.9.1";
-    const PRIORITY = "1000"; /* numero abbastanza alto per essere ultima */
+    const PRIORITY = "1000";
     public $yellow;         //access to API
 
     // Handle initialisation
