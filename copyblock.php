@@ -2,7 +2,7 @@
 // Copyblock extension, https://github.com/GiovanniSalmeri/yellow-copyblock
 
 class YellowCopyblock {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     const PRIORITY = "1000";
     public $yellow;         //access to API
 
@@ -34,8 +34,8 @@ class YellowCopyblock {
         $output = null;
         if ($name=="header") {
             $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
-            $output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$assetLocation}copyblock.css\" />\n";
-            $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}copyblock.js\"></script>\n";
+            $output .= "<link rel=\"stylesheet\" media=\"all\" href=\"{$assetLocation}copyblock.css\" />\n";
+            $output .= "<script defer=\"defer\" src=\"{$assetLocation}copyblock.js\"></script>\n";
             $output .= "<script type=\"text/javascript\">\n";
             $output .= "// <![CDATA[\n";
             $output .= "var yellow = yellow || {};\n";

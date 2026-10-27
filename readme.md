@@ -1,8 +1,8 @@
-# Copyblock 0.9.1
+# Copyblock 1.0.0
 
-Copy special blocks to clipboard.
+Copy special blocks to clipboard. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -16,6 +16,4 @@ This extension creates a "copy" button beside each special block in a page (code
 
 The extension is derived from [Copycode](https://github.com/schulle4u/yellow-copycode) by Steffen Schultz. Thank you for the good work.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
